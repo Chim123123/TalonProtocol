@@ -40,9 +40,26 @@ public class Location
         Console.WriteLine(Description);
 
         if (Challenge != null && !Challenge.IsCompleted)
-        {
-            Console.WriteLine($"\nChallenge: {Challenge.Description}");
-        }
+{
+    Console.WriteLine($"\nChallenge: {Challenge.Description}");
+
+    if (Challenge is PuzzleChallenge)
+    {
+        Console.WriteLine("Suggested command: solve");
+    }
+    else if (Challenge is CombatChallenge)
+    {
+        Console.WriteLine("Suggested command: attack");
+    }
+    else if (Challenge is HealingChallenge)
+    {
+        Console.WriteLine("Suggested command: heal");
+    }
+}
+else if (Challenge != null && Challenge.IsCompleted)
+{
+    Console.WriteLine("\nChallenge completed.");
+}
 
         Console.WriteLine("\nAvailable exits: " + string.Join(", ", Exits.Keys));
     }
