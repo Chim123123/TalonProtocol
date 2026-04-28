@@ -17,6 +17,8 @@ public class Game
         SetupGame();
     }
 
+// Creates all locations, connects exits, and assigns challenges.
+
     private void SetupGame()
     {
         Location entranceHall = new Location(
@@ -159,6 +161,8 @@ public class Game
             Controller.DisplayPrompt();
         }
     }
+
+// Checks whether the player has met all conditions required to win.
 
     private bool CheckWinCondition()
     {

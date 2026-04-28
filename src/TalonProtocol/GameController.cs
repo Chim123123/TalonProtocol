@@ -28,6 +28,8 @@ public class GameController
         ProcessCommand(input.Trim().ToLower());
     }
 
+// Interprets player commands and runs the correct game action.
+
     private void ProcessCommand(string command)
     {
         if (command == "help")

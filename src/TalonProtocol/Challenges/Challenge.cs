@@ -1,5 +1,8 @@
 namespace TalonProtocol.Challenges;
 
+// Abstract base class used by all challenge types.
+// This allows puzzle, combat, and healing challenges to share common behaviour.
+
 public abstract class Challenge
 {
     public string Description { get; protected set; }
