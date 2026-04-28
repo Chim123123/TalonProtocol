@@ -119,20 +119,22 @@ private void StartChallenge(string command)
 }
 
     private void ShowHelp()
-    {
-        Console.WriteLine("\nAvailable commands:");
-        Console.WriteLine("look       - View your current location");
-        Console.WriteLine("status     - View health and inventory");
-        Console.WriteLine("inventory  - View collected items");
-        Console.WriteLine("go forward - Move forward");
-        Console.WriteLine("go back    - Move back");
-        Console.WriteLine("go left    - Move left");
-        Console.WriteLine("go right   - Move right");
-        Console.WriteLine("solve      - Attempt a puzzle challenge");
-        Console.WriteLine("attack     - Attack an enemy challenge");
-        Console.WriteLine("heal       - Use healing supplies if available");
-        Console.WriteLine("quit       - Exit the game");
-    }
+{
+    Console.WriteLine("\nAvailable commands:");
+    Console.WriteLine("look        - View your current location, exits, and challenge");
+    Console.WriteLine("status      - View your health, location, and inventory");
+    Console.WriteLine("inventory   - View collected items");
+    Console.WriteLine("go forward  - Move forward if that exit exists");
+    Console.WriteLine("go back     - Move back if that exit exists");
+    Console.WriteLine("go left     - Move left if that exit exists");
+    Console.WriteLine("go right    - Move right if that exit exists");
+    Console.WriteLine("solve       - Attempt a puzzle challenge");
+    Console.WriteLine("attack      - Attack an enemy challenge");
+    Console.WriteLine("heal        - Use healing supplies if available");
+    Console.WriteLine("quit        - Exit the game");
+
+    Console.WriteLine("\nTip: Type 'look' whenever you enter a new location.");
+}
 
     private void ShowInventory()
     {

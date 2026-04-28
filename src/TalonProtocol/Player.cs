@@ -54,18 +54,19 @@ public class Player
     }
 
     public void ShowStatus()
-    {
-        Console.WriteLine("\n--- Player Status ---");
-        Console.WriteLine($"Name: {Name}");
-        Console.WriteLine($"Health: {Health}");
+{
+    Console.WriteLine("\n--- Player Status ---");
+    Console.WriteLine($"Name: {Name}");
+    Console.WriteLine($"Health: {Health}");
+    Console.WriteLine($"Current location: {CurrentLocation.Name}");
 
-        if (Inventory.Count == 0)
-        {
-            Console.WriteLine("Inventory: Empty");
-        }
-        else
-        {
-            Console.WriteLine("Inventory: " + string.Join(", ", Inventory));
-        }
+    if (Inventory.Count == 0)
+    {
+        Console.WriteLine("Inventory: Empty");
     }
+    else
+    {
+        Console.WriteLine("Inventory: " + string.Join(", ", Inventory));
+    }
+}
 }
