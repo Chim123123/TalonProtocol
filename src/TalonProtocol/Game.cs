@@ -127,8 +127,16 @@ public class Game
         Console.WriteLine("=================================");
         Console.WriteLine("       TALON PROTOCOL");
         Console.WriteLine("=================================");
-        Console.WriteLine("You are a new recruit trapped inside a secret base.");
-        Console.WriteLine("Type 'help' to see available commands.");
+        Console.WriteLine("You are a new recruit inside a secret Talon-style base.");
+        Console.WriteLine("Your mission is to survive, collect key items, and override the Command Centre.");
+        Console.WriteLine("\nWin condition:");
+        Console.WriteLine("- Collect the Access Key");
+        Console.WriteLine("- Collect the System Override");
+        Console.WriteLine("- Complete the final Command Centre puzzle");
+        Console.WriteLine("\nLose condition:");
+        Console.WriteLine("- Your health reaches 0");
+        Console.WriteLine("\nType 'help' to see available commands.");
+        Player.CurrentLocation.Display();
 
         while (IsRunning)
         {
