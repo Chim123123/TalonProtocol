@@ -41,6 +41,12 @@ public class PuzzleChallenge : Challenge
                 player.AddItem(RewardItem);
                 Console.WriteLine($"You received: {RewardItem}");
             }
+            
+            if (RewardItem == "Lab Notes")
+            {
+                Console.WriteLine("\nYou read the laboratory terminal:");
+                Console.WriteLine("\"Security Override Code: 314\"");
+            }
 
             IsCompleted = true;
         }

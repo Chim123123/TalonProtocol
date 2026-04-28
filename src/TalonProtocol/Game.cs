@@ -70,7 +70,7 @@ public class Game
             "Security Room",
             "Screens show every corridor in the base.",
             new PuzzleChallenge(
-                "A security console asks for a three-digit code.",
+                "A security console asks for a three-digit override code found elsewhere in the base.",
                 "Enter the security code:",
                 "314"
             )

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalonProtocol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d1a0b2a8859caa15bf1aa601d4cbe82fe58ea5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+002df10e7f9b3ae7d0ae93738ade65f159746629")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalonProtocol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalonProtocol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
