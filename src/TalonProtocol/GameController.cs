@@ -81,22 +81,42 @@ public class GameController
         Player.CurrentLocation.Display();
     }
 
-    private void StartChallenge(string command)
+private void StartChallenge(string command)
+{
+    if (Player.CurrentLocation.Challenge == null)
     {
-        if (Player.CurrentLocation.Challenge == null)
-        {
-            Console.WriteLine("There is no challenge to complete here.");
-            return;
-        }
-
-        if (Player.CurrentLocation.Challenge.IsCompleted)
-        {
-            Console.WriteLine("You have already completed this challenge.");
-            return;
-        }
-
-        Player.CurrentLocation.Challenge.Start(Player);
+        Console.WriteLine("There is no challenge to complete here.");
+        return;
     }
+
+    if (Player.CurrentLocation.Challenge.IsCompleted)
+    {
+        Console.WriteLine("You have already completed this challenge.");
+        return;
+    }
+
+    string challengeType = Player.CurrentLocation.Challenge.GetType().Name;
+
+    if (command == "solve" && challengeType != "PuzzleChallenge")
+    {
+        Console.WriteLine("There is no puzzle to solve here.");
+        return;
+    }
+
+    if (command == "attack" && challengeType != "CombatChallenge")
+    {
+        Console.WriteLine("There is no enemy to attack here.");
+        return;
+    }
+
+    if (command == "heal" && challengeType != "HealingChallenge")
+    {
+        Console.WriteLine("There are no medical supplies to use here.");
+        return;
+    }
+
+    Player.CurrentLocation.Challenge.Start(Player);
+}
 
     private void ShowHelp()
     {
