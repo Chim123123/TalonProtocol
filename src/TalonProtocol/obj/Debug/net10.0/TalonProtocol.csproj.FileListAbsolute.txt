@@ -1,0 +1,15 @@
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\bin\Debug\net10.0\TalonProtocol.exe
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\bin\Debug\net10.0\TalonProtocol.deps.json
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\bin\Debug\net10.0\TalonProtocol.runtimeconfig.json
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\bin\Debug\net10.0\TalonProtocol.dll
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\bin\Debug\net10.0\TalonProtocol.pdb
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.AssemblyInfoInputs.cache
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.AssemblyInfo.cs
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.csproj.CoreCompileInputs.cache
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.sourcelink.json
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.dll
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\refint\TalonProtocol.dll
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.pdb
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\TalonProtocol.genruntimeconfig.cache
+C:\Users\chimu\OneDrive\Documents\Digital Marketing\YR 3\Sem 2\Software Design\talon_protocol_game\src\TalonProtocol\obj\Debug\net10.0\ref\TalonProtocol.dll
