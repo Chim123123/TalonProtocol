@@ -1,3 +1,4 @@
+using System.IO;
 using TalonProtocol.Challenges;
 
 namespace TalonProtocol;
@@ -94,7 +95,7 @@ public class Game
             "You have reached the heart of the base. The final override terminal stands before you.",
             new PuzzleChallenge(
                 "The final terminal asks for the override phrase.",
-                "Type the final phrase: talon protocol",
+                "What is the name of this game?",
                 "talon protocol"
             )
         );
@@ -152,8 +153,10 @@ public class Game
 
             if (CheckWinCondition())
             {
+                SaveWinnerLog();
                 Console.WriteLine("\nYou activate the final terminal and take control of the base.");
                 Console.WriteLine("MISSION COMPLETE. YOU WIN.");
+                Console.WriteLine("Your victory has been recorded in winner_log.txt");
                 IsRunning = false;
                 break;
             }
@@ -172,4 +175,18 @@ public class Game
                && Player.CurrentLocation.Challenge != null
                && Player.CurrentLocation.Challenge.IsCompleted;
     }
+// A record for wins
+
+    private void SaveWinnerLog()
+{
+    string filePath = "winner_log.txt";
+
+    string logEntry =
+        $"Player: {Player.Name}\n" +
+        $"Completed: {DateTime.Now}\n" +
+        $"Result: Mission Complete\n" +
+        $"-------------------------\n";
+
+    File.AppendAllText(filePath, logEntry);
+}
 }
